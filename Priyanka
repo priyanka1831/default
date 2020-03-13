@@ -1,0 +1,15 @@
+class Priyanka {
+	
+	public static void main(String[] args) throws ArrayIndexOutOfBoundsException  {
+		
+	try
+	{
+		
+	System.out.println("Your name is"+args[0]);
+	}
+	catch(ArrayIndexOutOfBoundsException ae)
+	{
+		System.out.println("Give 1 name as argument");	
+	}
+}
+}
