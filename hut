@@ -1,0 +1,36 @@
+    
+public class Hut {  
+    
+    // Function to print the Hut-Star Pattern  
+    static void printHutStar(int n)  
+    {  
+        int i, j;  
+    
+        // Printing the upper triangle  
+        for (i = 0; i < n; i++) {  
+    
+            // Left space triangle  
+            for (j = i + 1; j < n; j++)  
+                System.out.print(" ");  
+    
+            // Center Star triangle  
+            for (j = 0; j < (2 * i + 1); j++)  
+                System.out.print("*");  
+    
+            System.out.println();  
+        }  
+    
+       
+        
+    }  
+    
+    // Driver Code  
+    public static void main(String args[])  
+    {  
+        int n = 5;  
+    
+        printHutStar(n);  
+    }  
+}  
+
+
